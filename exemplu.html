@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghid Rezolvare BAC</title>
+    <link rel="stylesheet" href="./src/style/input.css" />
+    <link rel="stylesheet" href="./src/style/output.css" />
+    <script src="./src/scripts/main.js" defer></script>
+    <script src="./src/scripts/test.js" defer></script>
+    <script src="./src/scripts/imagepagination.js" defer></script>
+    <link rel="icon" href="./src/assets/logo.webp">
+
+</head>
+
+<body class="font-poppins bg-background text-text">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md px-2 sm:px-8 z-2">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <img src="./src/assets/logo.webp" alt="Logo" class="h-8 sm:h-10 mr-3" />
+                <span class="text-lg sm:text-xl font-semibold"><a href="intro.html">Ghid de Rezolvare</a></span>
+            </div>
+
+            <!-- Desktop Links -->
+            <div class="hidden sm:flex space-x-6">
+                <a href="exemplu.html" id="exempluLink"
+                    class="link text-base sm:text-lg hover:text-primary transition">Exemplu</a>
+                <a href="#" id="viewSubjectLink" class="link text-base sm:text-lg hover:text-primary transition">View
+                    Subject</a>
+                <a href="index.html" id="testLink"
+                    class="link text-base sm:text-lg hover:text-primary transition">Test</a>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <button id="menuToggle" class="sm:hidden focus:outline-none">
+                <svg class="h-6 w-6 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden sm:hidden flex flex-col px-4 py-2 bg-white font-semibold">
+            <a href="exemplu.html" class="link text-base hover:text-primary transition py-2">Exemplu</a>
+            <a href="" id="viewSubjectLink2" class="link text-base sm:text-lg hover:text-primary transition">View
+                Subject</a>
+            <a href="index.html" class="link text-base hover:text-primary transition py-2">Test</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-12 px-4 my-5">
+        <div class="bg-white shadow-lg rounded-lg p-6 sm:p-8 lg:p-10 w-full sm:w-4/5 lg:w-2/3 mx-auto">
+            <h1 class="text-2xl font-bold text-center mb-4">Examenul Național de Bacalaureat 2025</h1>
+            <h2 class="text-xl font-semibold text-center mb-6">Proba E. c) - Istorie</h2>
+
+            <section class="mb-8">
+                <h3 class="text-lg font-semibold mb-2">Instrucțiuni Generale</h3>
+                <div class="bg-primary bg-opacity-20 rounded-md border-l-4 border-accent p-4">
+                    <ul class="list-disc list-inside space-y-2">
+                        <li>Se punctează orice modalitate de rezolvare corectă a cerințelor.</li>
+                        <li>Nu se acordă punctaje intermediare, altele decât cele precizate explicit în barem.</li>
+                        <li>Se acordă zece puncte din oficiu. Nota finală se calculează prin împărțirea la zece a
+                            punctajului total acordat pentru lucrare.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="mb-8">
+                <h3 class="text-lg font-semibold mb-2">Subiectul I - <span class="text-primary">30 puncte</span></h3>
+                <ul class="list-decimal list-inside space-y-2">
+                    <li>2 puncte pentru răspunsul: <span class="font-medium">Partidul Comunist</span>.</li>
+                    <li>2 puncte pentru răspunsuri precum: <em>au izbucnit proteste studențești, inspirate de
+                            evenimentele
+                            din Polonia și Ungaria</em>, etc.</li>
+                    <li>Câte 3 puncte pentru răspunsurile: <span class="font-medium">Gheorghe Gheorghiu-Dej</span> și
+                        <span class="font-medium">Hrușciov</span>. <span class="text-primary">(3 x 2 = 6p)</span></li>
+                    <li>3 puncte pentru scrierea literei <span class="font-medium">A</span>.</li>
+                    <li>7 puncte pentru stabilirea unei relații cauză-efect pe baza sursei B.</li>
+                    <li>Câte 2 puncte pentru prezentarea fiecărei acțiuni din politica internă a României (1948-1975).
+                    </li>
+                    <li>4 puncte pentru menționarea unei asemănări între practici politice (1990-2000).</li>
+                </ul>
+            </section>
+
+            <section class="mb-8">
+                <h3 class="text-lg font-semibold mb-2">Subiectul II - <span class="text-primary">30 puncte</span></h3>
+                <ul class="list-decimal list-inside space-y-2">
+                    <li>2 puncte pentru răspunsul: <span class="font-medium">Imperiul Otoman</span>.</li>
+                    <li>3 puncte pentru răspunsul: <span class="font-medium">monstruoasa coaliție</span>.</li>
+                    <li>6 puncte pentru două informații despre activitatea reformatoare a lui Al. I. Cuza.</li>
+                    <li>4 puncte pentru formularea unui punct de vedere despre <span class="font-medium">principiul
+                            străin</span>.</li>
+                </ul>
+            </section>
+
+            <section class="mb-8">
+                <h3 class="text-lg font-semibold mb-2">Subiectul III - <span class="text-primary">30 puncte</span></h3>
+                <p class="leading-relaxed">
+                    Informația istorică trebuie să includă răspunsuri relevante privind relațiile internaționale,
+                    acțiuni de
+                    politică externă și organizarea instituțională din diverse perioade istorice. Respectați succesiunea
+                    logică și cronologică.
+                </p>
+            </section>
+            <a href="src/assets/ModelCerc.docx" download class="underline text-primary">Descarcă documentul original de aici</a>
+        </div>
+    </main>
+
+
+
+
+    <!-- Reusable Modal Component -->
+    <div id="modalContainer"
+        class="fixed inset-0 bg-gray-500 bg-opacity-80 flex items-center justify-center hidden z-100">
+        <div class="relative bg-white rounded-lg shadow-lg max-w-screen-lg w-full max-h-screen overflow-hidden">
+            <!-- Close Button -->
+            <button id="modalCloseBtn" class="absolute top-4 right-4 text-gray-500 hover:text-gray-800">
+                &times;
+            </button>
+            <!-- Modal Content -->
+            <div class="flex flex-col items-center justify-center p-4 space-y-4">
+                <img id="modalImage" class="max-h-96 object-contain rounded-lg cursor-pointer" src="" alt="Dynamic Content" />
+                <div class="flex justify-between w-full px-4">
+                    <button id="modalPrevBtn" class="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg hover:bg-gray-400">
+                        Previous
+                    </button>
+                    <button id="modalNextBtn" class="px-4 py-2 bg-gray-300 text-gray-700 rounded-lg hover:bg-gray-400">
+                        Next
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
