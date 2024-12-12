@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
             type: "open-ended",
             question: "<span class=\"text-primary\">SUB 1 | 1. </span>Numiți lupta din 1595 precizată în sursa B.",
             keywords: ["Călugăreni"],
-            aliases: ["Bătălia de la Călugăreni"],
+            aliases: ["Bătălia de la Călugăreni", "Calugareni"],
             rezolvare: "2 puncte pentru răspunsul: Călugăreni.\nSe punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț).",
             maxScore: 2
         },
@@ -112,10 +112,10 @@ efect: ,,Domnul nu putea lupta în câmp deschis,,<br>
             keywords: [" "],
             aliases: [" "],
             rezolvare:
-            `
+                `
             <span class="text-red-600">4 puncte pentru menționarea oricărei asemănări între două fapte istorice desfășurate de români în secolul al XIV-lea Exemple: obținerea independenței față de Ungaria, caracter antiotoman etc. Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț)</span>
             `,
-            maxScore: 6
+            maxScore: 4
         },
         {
             id: 8,
@@ -141,7 +141,7 @@ efect: ,,Domnul nu putea lupta în câmp deschis,,<br>
             al XX-lea<br>
             Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț).<br></span>
             `,
-            maxScore: 6
+            maxScore: 2
         },
         {
             id: 10,
@@ -156,7 +156,7 @@ efect: ,,Domnul nu putea lupta în câmp deschis,,<br>
                 "Antanta", "României", "Puterilor Centrale"
             ],
             rezolvare:
-            `
+                `
             <span class="text-red-600">"I.I.C. Brătianu 3 puncte<br>
             ,,opinia publică românească [...] cu gândul la eliberarea națională a românilor din provinciile aflate sub stăpânire austro-ungară [...] - Transilvania, Banat, Bucovina - avea să opteze pentru intrarea în război alături de puterile Antantei,,   3 puncte<br><br>
             SAU<br><br>
@@ -185,9 +185,9 @@ efect: ,,Domnul nu putea lupta în câmp deschis,,<br>
             keywords: ["1916", "aciuni militare"],
             aliases: ["acțiuni militare"],
             rezolvare: `
-            4 puncte pentru formularea, pe baza sursei date, a oricărui punct de vedere referitor la acțiunile militare desfășurate în anul 1916 câte 3 puncte pentru selectarea, din sursa dată, a oricăror două informaţii care susţin punctul de vedere formulat (3px2=6p)<br><br>
+            <span class=""> 4 puncte pentru formularea, pe baza sursei date, a oricărui punct de vedere referitor la acțiunile militare desfășurate în anul 1916 câte 3 puncte pentru selectarea, din sursa dată, a oricăror două informaţii care susţin punctul de vedere formulat (3px2=6p)<br><br>
             Exemple:</span><br><br>
-            <span class="text-purple-800">"Conform sursei,</span> <span class="text-red-600>"acțiunile militare desfășurate în anul 1916 au consecințe politice negative pentru România. 4 puncte<br><br>
+            <span class="text-purple-800">Conform sursei,</span> <span class="text-red-600">acțiunile militare desfășurate în anul 1916 au consecințe politice negative pentru România. 4 puncte<br><br>
             Informațiile care susțin punctul de vedere sunt:<br><br>
             ,, Astfel, în decembrie 1916, Capitala era ocupată, o bună parte a teritoriului național intrând sub ocupația militară a Puterilor Centrale ,, 3 puncte<br>
             ,, De la această dată, armata română și, odată cu ea, autoritățile și principalele instituții ale statului, se retrag în Moldova,,.  3 puncte<br><br>
@@ -198,7 +198,7 @@ efect: ,,Domnul nu putea lupta în câmp deschis,,<br>
             ,, În același timp, România era atacată de inamic și pe frontul de sud, de către trupele germane, conduse de generalul Mackensen, cărora se alăturau trupele bulgare și turcești, în condițiile în care aliații nu-și îndepliniseră angajamentul de a acoperi sudul României cu ofensiva lor,,. etc.  3 puncte<br>
             Punctajul total (10 puncte) sau cel parțial (7 puncte) se acordă răspunsului care cuprinde atât punctul de vedere, cât și informațiile/informația. Nu se punctează doar punctul de vedere sau doar informațiile/informația.</span><br>
 `,
-            maxScore: 4
+            maxScore: 10
         },
         {
             id: 13,
@@ -207,7 +207,7 @@ efect: ,,Domnul nu putea lupta în câmp deschis,,<br>
             keywords: ["Constitutie 1923"],
             aliases: ["Constituție 1923", "Constituția 1923", "Constitutia 1923"],
             rezolvare:
-            `
+                `
             <span class="text-red-600">4 puncte pentru argumentarea afirmației date - prezentarea oricărui fapt istoric relevant (de exemplu: organizarea alegerilor pe baza votului universal, adoptarea Constituției din 1923 etc. ) prin precizarea a două informații referitoare la acest fapt și prin utilizarea conectorilor care exprimă cauzalitatea (deoarece, pentru că etc.) şi concluzia (aşadar, astfel etc.)<br><br>
             CAUZA:</span> <span class="text-purple-800">DATORITĂ</span> <span class="text-red-600">realizării României Mari în anul 1918, noi provincii au intrat în granița statului român și era necesară o legislație unitară.<br><br>
             EVENIMENT:</span> <span class="text-purple-800">1923 Constituție</span><br><br>
@@ -225,8 +225,12 @@ efect: ,,Domnul nu putea lupta în câmp deschis,,<br>
             question: "<span class=\"text-primary\">SUB 3 | REP 1 </span>Precizarea unei acțiuni politice desfășurate în România între anii 1946-1960 și menționarea a două aspecte referitoare la aceasta",
             keywords: ["Constitutia din 1948"],
             aliases: ["Constituția din 1948", "Colectivizarea 1949"],
-            rezolvare: `
-<span class="text-rd-600>- 2 puncte pentru precizarea câte 3 puncte pentru menționarea oricăror două aspecte referitoare la aceasta (de exemplu:) (3px2=6p)</span><br><br>
+            rezolvare:
+                `
+INTRODUCEREA ARE LEGĂTURA CU TITLUL ESEULUI, INFORMAŢIILE ADUSE NU TREBUIE SĂ DEPĂŞEASCĂ 8 RÂNDURI.
+INTRODUCERE:În urma semnări Tratatului de la lalta din anuk 1945, U.R.S.S., S.U.A. şi Marea Britaniei au decis ca estul Europei să intre sub influință sovietică. Astfel în România U.R.S.S. a instaurat la 6 martie 1945 guvernul comunist condus de Pertu Groza iar în 1947 regele Mihai a fost obligat să abdice, iar comuniştii au preluat puterea deplină în stat.
+
+<span class="text-rd-600">- 2 puncte pentru precizarea câte 3 puncte pentru menționarea oricăror două aspecte referitoare la aceasta (de exemplu:) (3px2=6p)</span><br><br>
 R1<br><br>
 <span class="text-purple-800">C1 o acțiune politică desfășurată în România între anii 1946-1960 este:<br>
             
@@ -235,8 +239,9 @@ C2 un aspect refritor la aceasta: legitimează regimul totalitar  3 puncte<br>
 C2 prevede constituirea Marii Adunări Naționale, statul se numește Republica Populară Română etc.  3 puncte</span><br><br>
 SAU<br><br><span class="text-rose-600">*    colectivizarea    2 puncte<br>
 C1 se desfășoară după model sovietic, vizează proprietatea privată asupra pământului  3 puncte<br>
-C2  e însoțită de represiune politică etc  3 puncte</span><br>`,
-            maxScore: 8
+C2  e însoțită de represiune politică etc  3 puncte</span><br>
+`,
+            maxScore: 7.5
         },
         {
             id: 15,
@@ -252,7 +257,7 @@ C2  e însoțită de represiune politică etc  3 puncte</span><br>`,
             <span class="text-rose-600">C1 O măsură adoptată în politica internă a României între anii 1964-1985 este cumulul de funcții 3 puncte<br>
             C2 O altă măsură adoptată în politica internă  a României este raționalizarea    3 puncte</span><br>
             <span class="text-emerald-400">ASTFEL</span> <span class="text-red-600">au fost încălcate drepturile și libertățile cetățenilor</span><br>`,
-            maxScore: 8
+            maxScore: 7.5
         },
         {
             id: 16,
@@ -284,7 +289,7 @@ C2  e însoțită de represiune politică etc  3 puncte</span><br>`,
             În anul 1968 a avut  loc vizita preşedintelui Franţei Charles de Gaulle, care l-a felicitat pe Ceaușescu pentru politica lui de independenţă, iar în august 1969 a vizitat România preşedintele SUA, Richard Nixon, prima vizită a unui preşedinte american într-o ţară comunistă.</span><br>
             <span class="text-red-600">CONSECINȚĂ:</span> <span class="text-rose-600"><span class="text-purple-800">ASTFEL</span> România a primit sprijin din partea Occidentului. 3 puncte</span><br>
             `,
-            maxScore: 8
+            maxScore: 7.5
         },
         {
             id: 17,
@@ -293,18 +298,13 @@ C2  e însoțită de represiune politică etc  3 puncte</span><br>`,
             keywords: ["Constitutiei din 1991"],
             aliases: ["Constituției din 1991"],
             rezolvare: `R4<br><br>
-            <span class="text-red-600">PUNCT DE VEDERE</span>:Democarația postdecembristă a fost consolidată <span class="text-purple-800>datorită</span> garantării drepturilor și libertăților cetățenești prin introducerea unor măsurilor legislative. 1 punct<br>
-            <span class="text-red-600">ARGUMENT:</span> <span class="text-purple-800>Datorită</span>  adoptării Constituției din 1991 s-a revenit la statul de drept.<span class="text-purple-800>Astfel</span> Constituția din 1991 reintrodus drepturile și libertățile cetățenești, pluripartidismul, separarea puterilor în stat etc 4 puncte<br>
-            - 1 punct pentru formularea oricărui punct de vedere referitor la consolidarea democrației postdecembriste în perioada 1990-1995 (de exemplu: Garantarea drepturilor și libertăților cetățenești a contribuit la consolidarea democrației postdecembriste în perioada 1990-1995.; Consolidarea democrației postdecembriste în perioada 1990-1995 se realizează prin măsuri legislative. etc.) 4 puncte pentru susținerea punctului de vedere formulat printr-un argument istoric – prezentarea oricărui fapt istoric relevant, prin precizarea a două informații referitoare la acest fapt și utilizarea conectorilor care exprimă cauzalitatea (deoarece, pentru că etc.) şi concluzia (<span class="text-purple-800>astfel, așadar</span> etc.)<br>
+            <span class="text-red-600">PUNCT DE VEDERE</span>:Democarația postdecembristă a fost consolidată <span class="text-purple-800">datorită</span> garantării drepturilor și libertăților cetățenești prin introducerea unor măsurilor legislative. 1 punct<br>
+            <span class="text-red-600">ARGUMENT:</span> <span class="text-purple-800">Datorită</span> adoptării Constituției din 1991 s-a revenit la statul de drept.<span class="text-purple-800">Astfel</span> Constituția din 1991 reintrodus drepturile și libertățile cetățenești, pluripartidismul, separarea puterilor în stat etc 4 puncte<br>
+            - 1 punct pentru formularea oricărui punct de vedere referitor la consolidarea democrației postdecembriste în perioada 1990-1995 (de exemplu: Garantarea drepturilor și libertăților cetățenești a contribuit la consolidarea democrației postdecembriste în perioada 1990-1995.; Consolidarea democrației postdecembriste în perioada 1990-1995 se realizează prin măsuri legislative. etc.) 4 puncte pentru susținerea punctului de vedere formulat printr-un argument istoric – prezentarea oricărui fapt istoric relevant, prin precizarea a două informații referitoare la acest fapt și utilizarea conectorilor care exprimă cauzalitatea (deoarece, pentru că etc.) şi concluzia <span class="text-purple-800">astfel, așadar</span> etc.<br>
+            
             <span class="text-red-600">CONCLUZIE FINALĂ:</span> rezumatul eseului, realizat în maxim 6-8 rânduri.<br>
-            Informaţia istorică – 24 de puncte distribuite astfel:<br>
-            Ordonarea şi exprimarea ideilor menţionate – 6 puncte distribuite astfel: <br>
-            - 2 puncte pentru utilizarea limbajului istoric adecvat 1 punct pentru utilizarea parţială a limbajului istoric adecvat - 1 punct pentru structurarea eseului (introducere - cuprins - concluzie)<br>
-            - 2 puncte pentru respectarea succesiunii cronologice/logice a faptelor istorice 1 punct pentru respectarea parţială a succesiunii cronologice/logice a faptelor istorice <br>
-            - 1 punct pentru respectarea limitei de spaţiu<br>
-           Notă! Se punctează şi utilizarea limbajului istoric adecvat, structurarea prezentării, evidenţierea relaţiei cauză-efect, elaborarea argumentului istoric (prezentarea unui fapt istoric relevant și utilizarea conectorilor care exprimă cauzalitatea şi concluzia), respectarea succesiunii cronologice/logice a faptelor istorice şi încadrarea eseului în limita de spaţiu precizată.<br>
            `,
-            maxScore: 8
+            maxScore: 7.5
         }
     ];
 
@@ -418,7 +418,7 @@ C2  e însoțită de represiune politică etc  3 puncte</span><br>`,
     };
 
     const calculateScore = () => {
-        let totalScore = 0;
+        let totalScore = 10;
 
         questions.forEach((question, index) => {
             const answer = studentAnswers[index];
@@ -458,7 +458,7 @@ C2  e însoțită de represiune politică etc  3 puncte</span><br>`,
         }
 
         const score = calculateScore();
-        const totalScore = questions.reduce((acc, q) => acc + q.maxScore, 0);
+        const totalScore = questions.reduce((acc, q) => acc + q.maxScore, 0) + 10;
         questionContainer.innerHTML = displayResults(score, totalScore);
         prevBtn.classList.add("hidden");
         nextBtn.classList.add("hidden");
