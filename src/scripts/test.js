@@ -21,11 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 "atac asupra Chiliei",
                 "ofensiva din primăvara lui 1462"
             ],
-            rezolvare: `2 puncte pentru oricare dintre răspunsurile:<br>
-            ,, în primăvara lui 1462, sultanul s-a îndreptat spre Dunăre pentru a pedepsi cutezanța sa, , <br><br>
-                SAU<br><br>
-                    ,, otomanii atacă Chilia,, etc.<br>
-                        Se punctează orice mod de redactare a răspunsului corect (prin citat din sursă/menționare sau în enunț).<br>`,
+            rezolvare: `
+2 puncte pentru oricare dintre răspunsurile:<br>
+,, în primăvara lui 1462, sultanul s-a îndreptat spre Dunăre pentru a pedepsi cutezanța sa, , <br><br>
+SAU<br><br>
+,, otomanii atacă Chilia,, etc.<br>
+Se punctează orice mod de redactare a răspunsului corect (prin citat din sursă/menționare sau în enunț).<br>
+`,
             maxScore: 2
         },
         {
@@ -34,10 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
             question: "<span class=\"text-primary\">SUB 1 | 3. </span>Care dintre următoarele alianțe este menționată în sursa dată?",
             options: ["Antanta", "Puterile Centrale", "Tripla Alianță", "Liga Națiunilor"],
             correctAnswers: ["Antanta", "Puterile Centrale"],
-            rezolvare: `sursa A: Vlad Țepeș 3 puncte<br>
-                       sursa B: Mihai Viteazul 3 puncte<br>
-                       câte 3 puncte pentru fiecare răspuns: Vlad Țepeș, Mihai Viteazul<br>
-                       Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț). (3px2=6p)<br>`,
+            rezolvare: `
+sursa A: Vlad Țepeș 3 puncte<br>
+sursa B: Mihai Viteazul 3 puncte<br>
+câte 3 puncte pentru fiecare răspuns: Vlad Țepeș, Mihai Viteazul<br>
+Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț).
+(3px2=6p)<br>`,
             maxScore: 2
         },
         {
@@ -60,7 +64,8 @@ document.addEventListener('DOMContentLoaded', () => {
             aliases: [
                 "Autoritățile", "răscoala", "țărilor române", "sinan pasa", "Dunăre"
             ],
-            rezolvare: `Cauză: ,,Autoritățile nu puteau tolera răscoala țărilor române care lovea Imperiul otoman sub aspect politic, militar și economic,,<br>
+            rezolvare: `
+            Cauză: ,,Autoritățile nu puteau tolera răscoala țărilor române care lovea Imperiul otoman sub aspect politic, militar și economic,,<br>
             efect: ,,<span class="text-purple-800">De aceea</span>, zeci de mii de oameni (poate 50 000), sub comanda marelui vizir Sinan-Pașa, sunt puși în mișcare spre Dunăre,,<br>
             SAU<br>
             Cauză: ,,<span class="text-purple-800">din cauza</span> disproporției forțelor,,<br>
