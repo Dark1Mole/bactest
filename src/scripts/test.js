@@ -33,16 +33,16 @@ Se punctează orice mod de redactare a răspunsului corect (prin citat din surs�
         {
             id: 3,
             type: "multiple-choice",
-            question: "<span class=\"text-primary\">SUB 1 | 3. </span>Care dintre următoarele alianțe este menționată în sursa dată?",
-            options: ["Antanta", "Puterile Centrale", "Tripla Alianță", "Liga Națiunilor"],
-            correctAnswers: ["Antanta", "Puterile Centrale"],
+            question: "<span class=\"text-primary\">SUB 1 | 3. </span>Menţionaţi câte un domn al Țării Românești la care se referă sursa A, respectiv sursa B.",
+            options: ["Vlad Țepeș", "Mihai Viteazul", "Nicolae Alexandru", "Stefan cel Mare"],
+            correctAnswers: ["Vlad Țepeș", "Mihai Viteazul"],
             rezolvare: `
 sursa A: Vlad Țepeș 3 puncte<br>
 sursa B: Mihai Viteazul 3 puncte<br>
 câte 3 puncte pentru fiecare răspuns: Vlad Țepeș, Mihai Viteazul<br>
 Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț).
 (3px2=6p)<br>`,
-            maxScore: 2
+            maxScore: 6
         },
         {
             id: 4,
@@ -65,11 +65,12 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
                 "Autoritățile", "răscoala", "țărilor române", "sinan pasa", "Dunăre"
             ],
             rezolvare: `
-            Cauză: ,,Autoritățile nu puteau tolera răscoala țărilor române care lovea Imperiul otoman sub aspect politic, militar și economic,,<br>
-            efect: ,,<span class="text-purple-800">De aceea</span>, zeci de mii de oameni (poate 50 000), sub comanda marelui vizir Sinan-Pașa, sunt puși în mișcare spre Dunăre,,<br>
-            SAU<br>
-            Cauză: ,,<span class="text-purple-800">din cauza</span> disproporției forțelor,,<br>
-            efect: ,,Domnul nu putea lupta în câmp deschis,,<br>`,
+Cauză: ,,Autoritățile nu puteau tolera răscoala țărilor române care lovea Imperiul otoman sub aspect politic, militar și economic,,<br>
+efect: ,,<span class="text-purple-800">De aceea</span>, zeci de mii de oameni (poate 50 000), sub comanda marelui vizir Sinan-Pașa, sunt puși în mișcare spre Dunăre,,<br>
+SAU<br>
+Cauză: ,,<span class="text-purple-800">din cauza</span> disproporției forțelor,,<br>
+efect: ,,Domnul nu putea lupta în câmp deschis,,<br>
+            `,
             maxScore: 7
         },
         {
@@ -81,7 +82,8 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
                 "Tratatul de la Overchelăuți", "Tratatul de la Iași", "Tratatul de la Hârlău",
                 "Tratatul de la Dealu", "Tratatul de la București"
             ],
-            rezolvare: `<span class="text-red-600">câte 1 punct pentru menționarea oricăror două acțiuni diplomatice la care au participat românii în secolele al XV-lea – al XVI-lea, în afara celei la care se referă sursa B (1px2=2p)</span><br><br>
+            rezolvare: `
+            <span class="text-red-600">câte 1 punct pentru menționarea oricăror două acțiuni diplomatice la care au participat românii în secolele al XV-lea – al XVI-lea, în afara celei la care se referă sursa B (1px2=2p)</span><br><br>
             <span class="text-purple-800">M1  O acțiune diplomatică la care au participat românii în secolul  al XV-lea este Tratatul de la Colomeea 1p<br>
             SAU Tratatul de la Overchelăuți 1p<br>
             SAU Tratatul de la Iași 1p<br>
@@ -99,7 +101,8 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
             * antiotoman 2p<br>
             *domnie ereditară 2p<br>
             *aderarea directă la Liga Sfântă 2p</span><br><br>
-            Exemple: <span class="text-red-600">acceptarea suzeranității poloneze de către Alexandru cel Bun, Tratatul de la Hârlău încheiat de Ștefan cel Mare, Tratatul de la Mănăstirea Dealu etc. câte 2 puncte pentru prezentarea fiecărei acțiuni diplomatice menționate - o scurtă expunere în care sunt precizate două informații referitoare la acțiunea diplomatică (2px2=4p)</span><br>`,
+            Exemple: <span class="text-red-600">acceptarea suzeranității poloneze de către Alexandru cel Bun, Tratatul de la Hârlău încheiat de Ștefan cel Mare, Tratatul de la Mănăstirea Dealu etc. câte 2 puncte pentru prezentarea fiecărei acțiuni diplomatice menționate - o scurtă expunere în care sunt precizate două informații referitoare la acțiunea diplomatică (2px2=4p)</span><br>
+            `,
             maxScore: 6
         },
         {
@@ -108,7 +111,10 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
             question: "<span class=\"text-primary\">SUB 1 | 7. </span>Menţionaţi o asemănare între două fapte istorice desfășurate de români în secolul al XIV-lea.",
             keywords: [" "],
             aliases: [" "],
-            rezolvare: `<span class="text-red-600">4 puncte pentru menționarea oricărei asemănări între două fapte istorice desfășurate de români în secolul al XIV-lea Exemple: obținerea independenței față de Ungaria, caracter antiotoman etc. Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț)</span>`,
+            rezolvare:
+            `
+            <span class="text-red-600">4 puncte pentru menționarea oricărei asemănări între două fapte istorice desfășurate de români în secolul al XIV-lea Exemple: obținerea independenței față de Ungaria, caracter antiotoman etc. Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț)</span>
+            `,
             maxScore: 6
         },
         {
@@ -117,9 +123,11 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
             question: "<span class=\"text-primary\">SUB 2 | 1. </span>Numiţi o mare alianță precizată în sursa dată.",
             keywords: ["Antanta"],
             aliases: ["Antanta", "Puterile Centrale"],
-            rezolvare: `<span class="text-red-600">2 puncte pentru oricare dintre răspunsurile:<br>
-                       Antanta, Puterile Centrale<br>
-                       Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț).</span><br>`,
+            rezolvare: `
+            <span class="text-red-600">2 puncte pentru oricare dintre răspunsurile:<br>
+            Antanta, Puterile Centrale<br>
+            Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț).</span><br>
+            `,
             maxScore: 2
         },
         {
@@ -128,9 +136,11 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
             question: "<span class=\"text-primary\">SUB 2 | 2. </span>Precizaţi secolul la care se referă sursa dată.",
             keywords: ["XX-lea"],
             aliases: ["XX"],
-            rezolvare: `<span class="text-red-600">2 puncte pentru răspunsul:<br>
-                       al XX-lea<br>
-                       Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț).<br></span>`,
+            rezolvare: `
+            <span class="text-red-600">2 puncte pentru răspunsul:<br>
+            al XX-lea<br>
+            Se punctează orice mod de redactare a răspunsului corect (prin precizare/menționare sau în enunț).<br></span>
+            `,
             maxScore: 6
         },
         {
@@ -145,13 +155,14 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
                 "I.I.C. Brătianu", "eliberarea națională", "austro ungară",
                 "Antanta", "României", "Puterilor Centrale"
             ],
-            rezolvare: `"I.I.C. Brătianu", "eliberarea națională", "austro ungară",
-                "Antanta", "României", "Puterilor Centrale"
-            rezolvare:<span class="text-red-600">"I.I.C. Brătianu 3 puncte<br>
-          ,,opinia publică românească [...] cu gândul la eliberarea națională a românilor din provinciile aflate sub stăpânire austro-ungară [...] - Transilvania, Banat, Bucovina - avea să opteze pentru intrarea în război alături de puterile Antantei,,   3 puncte<br><br>
-          SAU<br><br>
-          ,, opinia publică influențează intrarea României în război împotriva Puterilor Centrale ,,etc. 3 puncte<br>
-          Se punctează orice mod de redactare a răspunsului corect (prin citat din sursă/menționare sau în enunț).<br></span>`,
+            rezolvare:
+            `
+            <span class="text-red-600">"I.I.C. Brătianu 3 puncte<br>
+            ,,opinia publică românească [...] cu gândul la eliberarea națională a românilor din provinciile aflate sub stăpânire austro-ungară [...] - Transilvania, Banat, Bucovina - avea să opteze pentru intrarea în război alături de puterile Antantei,,   3 puncte<br><br>
+            SAU<br><br>
+            ,, opinia publică influențează intrarea României în război împotriva Puterilor Centrale ,,etc. 3 puncte<br>
+            Se punctează orice mod de redactare a răspunsului corect (prin citat din sursă/menționare sau în enunț).<br></span>
+            `,
             maxScore: 6
         },
         {
@@ -174,7 +185,7 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
             keywords: ["1916", "aciuni militare"],
             aliases: ["acțiuni militare"],
             rezolvare: `
-4 puncte pentru formularea, pe baza sursei date, a oricărui punct de vedere referitor la acțiunile militare desfășurate în anul 1916 câte 3 puncte pentru selectarea, din sursa dată, a oricăror două informaţii care susţin punctul de vedere formulat (3px2=6p)<br><br>
+            4 puncte pentru formularea, pe baza sursei date, a oricărui punct de vedere referitor la acțiunile militare desfășurate în anul 1916 câte 3 puncte pentru selectarea, din sursa dată, a oricăror două informaţii care susţin punctul de vedere formulat (3px2=6p)<br><br>
             Exemple:</span><br><br>
             <span class="text-purple-800">"Conform sursei,</span> <span class="text-red-600>"acțiunile militare desfășurate în anul 1916 au consecințe politice negative pentru România. 4 puncte<br><br>
             Informațiile care susțin punctul de vedere sunt:<br><br>
@@ -195,9 +206,10 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
             question: "<span class=\"text-primary\">SUB 2 | 6. </span>Argumentaţi, printr-un fapt istoric relevant, afirmația conform căreia democrația din România Mare se consolidează în perioada 1921-1930.",
             keywords: ["Constitutie 1923"],
             aliases: ["Constituție 1923", "Constituția 1923", "Constitutia 1923"],
-            rezolvare: `
+            rezolvare:
+            `
             <span class="text-red-600">4 puncte pentru argumentarea afirmației date - prezentarea oricărui fapt istoric relevant (de exemplu: organizarea alegerilor pe baza votului universal, adoptarea Constituției din 1923 etc. ) prin precizarea a două informații referitoare la acest fapt și prin utilizarea conectorilor care exprimă cauzalitatea (deoarece, pentru că etc.) şi concluzia (aşadar, astfel etc.)<br><br>
-            CAUZA:</span> <span class="text-purple-800">DATRORITĂ</span> <span class="text-red-600">realizării României Mari în anul 1918, noi provincii au intrat în granița statului român și era necesară o legislație unitară.<br><br>
+            CAUZA:</span> <span class="text-purple-800">DATORITĂ</span> <span class="text-red-600">realizării României Mari în anul 1918, noi provincii au intrat în granița statului român și era necesară o legislație unitară.<br><br>
             EVENIMENT:</span> <span class="text-purple-800">1923 Constituție</span><br><br>
             <span class="text-red-600">*  Separarea puterilor în stat<br>
             *  Pluripartidism<br>
@@ -256,10 +268,10 @@ C2  e însoțită de represiune politică etc  3 puncte</span><br>`,
                 "Primavara de la Praga 1968"
             ],
             rezolvare: `R3<br><br>
-            <span class="text-red-600">M1</span> <span class="text-rose-600">Un fapt istoric din perioada național-comunismului prin care România participă la relațiile internaționale este Conferința de la Moscova defășurată în 1967   2 puncte</span><br>
-            <span class="text-red-600">CAUZA:</span> <span class="text-purple-800">DATORITĂ</span> <span class="text-rose-600">Războiul de 6 zile desfășurat în Egipt aliat cu Siria și Israel liderul U.R.S.S.-ului Leonid Brejnev a convocat la Kremlin liderii statelor comuniste./span><br>
+            <span class="text-red-600">M1</span> <span class="text-rose-600">Un fapt istoric din perioada național-comunismului prin care România participă la relațiile internaționale este Conferința de la Moscova defășurată în 1967  2 puncte</span><br>
+            <span class="text-red-600">CAUZA:</span> <span class="text-purple-800">DATORITĂ</span> <span class="text-rose-600">Războiul de 6 zile desfășurat între Egipt aliat cu Siria și Israel liderul U.R.S.S.-ului Leonid Brejnev a convocat la Kremlin șefii statelor comuniste.</span><br>
             <span class="text-red-600:>PREZENTARE:</span> <span class="text-rose-600">U.R.S.S.  a cerut statelor comuniste să susțină lupta popoarelor arabe și să întrerupă relațiile cu Israelul, simbolul ,, imperialismului,, american.Ceuașescu a concluzionat faptul că prin măsurile economice luate împotriva Israelului, Nasser a provocat declanșarea conflictului, dreptu urmare nu a rupt relațiile României cu Israelul.</span><br>
-            <span class="text-red-600">CONSECINȚĂ:</span> <span class="text-rose-600">ASTFEL atenția statelor occidentale s-a îndreptat spre România.  3 puncte</span><br><br>
+            <span class="text-red-600">CONSECINȚĂ:</span> <span class="text-rose-600">ASTFEL atenția statelor occidentale s-a îndreptat spre România. 3 puncte</span><br><br>
             SAU<br><br>
             <span class="text-red-600">M1</span> Un fapt istoric din perioada național-comunismului prin care România participă la relațiile internaționale este semnarea Actul Final al Conferinței de la Helsinki  2 puncte</span><br>
             <span class="text-red-600">CAUZA:</span> <span class="text-purple-800">DEOARECE</span> <span class="text-rose-600">europenii aveau ca obiectiv securitatea și cooperarea între stalele Europei la nivel bilateral și multilateral.</span><br>
@@ -281,16 +293,17 @@ C2  e însoțită de represiune politică etc  3 puncte</span><br>`,
             keywords: ["Constitutiei din 1991"],
             aliases: ["Constituției din 1991"],
             rezolvare: `R4<br><br>
-            <span class="text-red-600">PUNCT DE VEDERE</span>:Democarația postdecembristă a fost consolidată datorită garantării drepturilor și libertăților cetățenești prin introducerea unor măsurilor legislative. 1 punct<br>
-            <span class="text-red-600">ARGUMENT:</span> <class span="text-purple-800>Datorită</span>  adoptării Constituției din 1991 s-a revenit la statul de drept.<class span="text-purple-800>Astfel</span> s-au reitordus drepturile și libertățile cetățenești, pluripartidismul, separarea puterilor în stat etc 4 puncte<br>
-            - 1 punct pentru formularea oricărui punct de vedere referitor la consolidarea democrației postdecembriste în perioada 1990-1995 (de exemplu: Garantarea drepturilor și libertăților cetățenești a contribuit la consolidarea democrației postdecembriste în perioada 1990-1995.; Consolidarea democrației postdecembriste în perioada 1990-1995 se realizează prin măsuri legislative. etc.) 4 puncte pentru susținerea punctului de vedere formulat printr-un argument istoric – prezentarea oricărui fapt istoric relevant, prin precizarea a două informații referitoare la acest fapt și utilizarea conectorilor care exprimă cauzalitatea (deoarece, pentru că etc.) şi concluzia (așadar, astfel etc.)<br>
+            <span class="text-red-600">PUNCT DE VEDERE</span>:Democarația postdecembristă a fost consolidată <span class="text-purple-800>datorită</span> garantării drepturilor și libertăților cetățenești prin introducerea unor măsurilor legislative. 1 punct<br>
+            <span class="text-red-600">ARGUMENT:</span> <span class="text-purple-800>Datorită</span>  adoptării Constituției din 1991 s-a revenit la statul de drept.<span class="text-purple-800>Astfel</span> Constituția din 1991 reintrodus drepturile și libertățile cetățenești, pluripartidismul, separarea puterilor în stat etc 4 puncte<br>
+            - 1 punct pentru formularea oricărui punct de vedere referitor la consolidarea democrației postdecembriste în perioada 1990-1995 (de exemplu: Garantarea drepturilor și libertăților cetățenești a contribuit la consolidarea democrației postdecembriste în perioada 1990-1995.; Consolidarea democrației postdecembriste în perioada 1990-1995 se realizează prin măsuri legislative. etc.) 4 puncte pentru susținerea punctului de vedere formulat printr-un argument istoric – prezentarea oricărui fapt istoric relevant, prin precizarea a două informații referitoare la acest fapt și utilizarea conectorilor care exprimă cauzalitatea (deoarece, pentru că etc.) şi concluzia (<span class="text-purple-800>astfel, așadar</span> etc.)<br>
             <span class="text-red-600">CONCLUZIE FINALĂ:</span> rezumatul eseului, realizat în maxim 6-8 rânduri.<br>
             Informaţia istorică – 24 de puncte distribuite astfel:<br>
             Ordonarea şi exprimarea ideilor menţionate – 6 puncte distribuite astfel: <br>
             - 2 puncte pentru utilizarea limbajului istoric adecvat 1 punct pentru utilizarea parţială a limbajului istoric adecvat - 1 punct pentru structurarea eseului (introducere - cuprins - concluzie)<br>
             - 2 puncte pentru respectarea succesiunii cronologice/logice a faptelor istorice 1 punct pentru respectarea parţială a succesiunii cronologice/logice a faptelor istorice <br>
             - 1 punct pentru respectarea limitei de spaţiu<br>
-           Notă! Se punctează şi utilizarea limbajului istoric adecvat, structurarea prezentării, evidenţierea relaţiei cauză-efect, elaborarea argumentului istoric (prezentarea unui fapt istoric relevant și utilizarea conectorilor care exprimă cauzalitatea şi concluzia), respectarea succesiunii cronologice/logice a faptelor istorice şi încadrarea eseului în limita de spaţiu precizată.<br>`,
+           Notă! Se punctează şi utilizarea limbajului istoric adecvat, structurarea prezentării, evidenţierea relaţiei cauză-efect, elaborarea argumentului istoric (prezentarea unui fapt istoric relevant și utilizarea conectorilor care exprimă cauzalitatea şi concluzia), respectarea succesiunii cronologice/logice a faptelor istorice şi încadrarea eseului în limita de spaţiu precizată.<br>
+           `,
             maxScore: 8
         }
     ];
