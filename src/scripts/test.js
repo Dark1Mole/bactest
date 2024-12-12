@@ -19,6 +19,9 @@ document.addEventListener('DOMContentLoaded', () => {
             ],
             aliases: [
                 "atac asupra Chiliei",
+                "primavara 1462",
+                "Chilia",
+                "Chiliei",
                 "ofensiva din primăvara lui 1462"
             ],
             rezolvare: `
@@ -58,11 +61,11 @@ Se punctează orice mod de redactare a răspunsului corect (prin precizare/menț
             type: "open-ended",
             question: "<span class=\"text-primary\">SUB 1 | 5. </span>Scrieţi o relaţie cauză-efect stabilită între două informaţii selectate din sursa B, precizând rolul fiecăreia dintre aceste informaţii (cauză, respectiv efect).",
             keywords: [
-                "autoritatile", "rascoala", "tarilor romane", "Imperiul otoman",
-                "politic", "militar", "economic", "mii de oameni", "Sinan-Pasa", "Dunare"
+                "autoritatile", "rascoala"
             ],
             aliases: [
-                "Autoritățile", "răscoala", "țărilor române", "sinan pasa", "Dunăre"
+                "Autoritățile", "răscoala", "țărilor române", "sinan pasa", "Dunăre", "tarilor romane", "Imperiul otoman",
+                "politic", "militar", "economic", "mii de oameni", "Sinan-Pasa", "Dunare"
             ],
             rezolvare: `
 Cauză: ,,Autoritățile nu puteau tolera răscoala țărilor române care lovea Imperiul otoman sub aspect politic, militar și economic,,<br>
@@ -228,7 +231,7 @@ efect: ,,Domnul nu putea lupta în câmp deschis,,<br>
             rezolvare:
                 `
 INTRODUCEREA ARE LEGĂTURA CU TITLUL ESEULUI, INFORMAŢIILE ADUSE NU TREBUIE SĂ DEPĂŞEASCĂ 8 RÂNDURI.
-INTRODUCERE:În urma semnări Tratatului de la lalta din anuk 1945, U.R.S.S., S.U.A. şi Marea Britaniei au decis ca estul Europei să intre sub influință sovietică. Astfel în România U.R.S.S. a instaurat la 6 martie 1945 guvernul comunist condus de Pertu Groza iar în 1947 regele Mihai a fost obligat să abdice, iar comuniştii au preluat puterea deplină în stat.
+INTRODUCERE:În urma semnări Tratatului de la lalta din anul 1945, U.R.S.S., S.U.A. şi Marea Britanie au decis ca estul Europei să intre sub influența sovietică. Astfel în România U.R.S.S. a instaurat la 6 martie 1945 guvernul comunist condus de Pertu Groza iar în 1947 regele Mihai a fost obligat să abdice, iar comuniştii au preluat puterea deplină în stat.
 
 <span class="text-rd-600">- 2 puncte pentru precizarea câte 3 puncte pentru menționarea oricăror două aspecte referitoare la aceasta (de exemplu:) (3px2=6p)</span><br><br>
 R1<br><br>
